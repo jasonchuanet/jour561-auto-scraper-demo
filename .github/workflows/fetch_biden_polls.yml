@@ -21,7 +21,7 @@ jobs:
       - name: install python packages
         run: | # make sure we have requirements file
           python -m pip install --upgrade pip
-          pip install -r requirments.txt
+          pip install -r requirements.txt
 
       - name: execute py script 
         run: | # add our scraper py file
